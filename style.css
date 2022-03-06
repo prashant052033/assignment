@@ -1,0 +1,65 @@
+body{
+
+margin: 0;
+background-color: yellow;
+}
+
+.header{
+     background-color: yellow;
+     padding: 21px;
+     text-align: center;
+     color: black;
+     fornt-family: "comic sans ms", Arial;
+}
+nav a{
+
+     display: flex;
+     align-items: center;
+     overflow: hidden;
+     background-color: blue;
+}
+nav a{
+     float: left;
+     color: white;
+     padding: 15px 17px;
+     text-decoration: none;
+
+}
+nav a:hover{
+     background-color: oange;
+     color: black;
+     }   
+.column{
+     float:  left;
+     padding: 10px;
+}
+
+
+.columns { 
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+
+
+ }
+ @media screen and (max-width: 600px){
+     .column.side,column.middele{
+          width: 100%;
+     flex-direction: coloumn;
+ }
+ p{ 
+    text-align:justify;
+     }
+     footer{
+          clear: both;
+          backgound-color: skyblue;
+          padding: 25px;
+          font-family: comic san ms;
+          text-align: center; 
+     }
+     .contact{   
+     @media screen and (max-width: 800px)
+     flex-direction: column;
+}
+.portfolio{
+     @media scree
+}
